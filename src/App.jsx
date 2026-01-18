@@ -60,19 +60,7 @@ export default function App() {
                           transition"
               >
                 <Mail size={20} />
-              </a>
-
-              <a
-                href="/Felipe-Medeiros-CV.pdf"
-                download
-                className="ml-2 inline-flex items-center gap-2 
-                          px-5 py-2 rounded-full 
-                          bg-zinc-900 border border-zinc-700 
-                          text-zinc-300 hover:text-white 
-                          hover:border-zinc-500 transition text-sm"
-              >
-                📄 Download CV
-              </a>
+              </a>              
             </div>
 
 
@@ -109,11 +97,13 @@ export default function App() {
             <div className="bg-zinc-900/60 border border-zinc-800 rounded-2xl p-6">
               <h3 className="font-semibold mb-4">Backend</h3>
               <div className="flex flex-wrap gap-3">
-                <span className={badge}>.NET Core / .NET 6+</span>
-                <span className={badge}>C#</span>
+                <span className={badge}>.NET / C#</span>
                 <span className={badge}>Node.js</span>
+                <span className={badge}>TypeScript / JavaScript</span>
                 <span className={badge}>APIs REST</span>
-                <span className={badge}>Arquitetura de Microsserviços</span>
+                <span className={badge}>Microsserviços</span>
+                <span className={badge}>Middlewares</span>
+                <span className={badge}>Integrações</span>
               </div>
             </div>
 
